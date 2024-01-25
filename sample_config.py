@@ -17,7 +17,7 @@ LOG_GROUP_ID = int(os.environ.get("-4177413357"))
 GBAN_LOG_GROUP_ID = int(os.environ.get("-4177413357"))
 MESSAGE_DUMP_CHAT = int(os.environ.get("-4177413357"))
 WELCOME_DELAY_KICK_SEC = int(os.environ.get("WELCOME_DELAY_KICK_SEC", 600))
-MONGO_URL = os.environ.get("MONGO_URL")
+MONGO_URL = os.environ.get("mongodb+srv://pranav999:Billy@982@cluster0.0mjgkud.mongodb.net/?retryWrites=true&w=majority")
 ARQ_API_KEY = os.environ.get("ARQ_API_KEY")
 ARQ_API_URL = os.environ.get("ARQ_API_URL", "https://arq.hamker.dev")
 LOG_MENTIONS = os.environ.get("LOG_MENTIONS", "True").lower() in ["true", "1"]
